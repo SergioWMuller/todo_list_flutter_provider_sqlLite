@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:todo_list_provider/app/core/database/sqlite_adm_connection.dart';
+import 'package:todo_list_provider/app/core/ui/tema.dart';
 import 'package:todo_list_provider/app/modules/auth/auth_module.dart';
 import 'package:todo_list_provider/app/modules/splash/splash_page.dart';
 
@@ -32,6 +33,7 @@ class _AppWidgetState extends State<AppWidget> {
       debugShowCheckedModeBanner: false,
       title: 'To Do List Provider',
       initialRoute: '/login',
+      theme: tema,
       routes: {...AuthModule().routers},
       home: const SplashPage(),
     );
