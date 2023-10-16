@@ -1,26 +1,36 @@
 {
   "project_info": {
-    "project_number": "711387094929",
-    "project_id": "todo-provider-71f94",
-    "storage_bucket": "todo-provider-71f94.appspot.com"
+    "project_number": "559578835002",
+    "project_id": "tarefas-diarias-c9078",
+    "storage_bucket": "tarefas-diarias-c9078.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:711387094929:android:c422d930f3a12a56aac430",
+        "mobilesdk_app_id": "1:559578835002:android:ab89fb9e2a08bb25e92d03",
         "android_client_info": {
           "package_name": "br.com.sergioflutter.todo_list_provider"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "559578835002-fbjrvjj5k7r7oson3ti9mumkarl2j3ra.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
-          "current_key": "AIzaSyBYSiFfHUbXqfCwjthqC7aVacL3Pz2fPTk"
+          "current_key": "AIzaSyCQeSeFCobMbDjZtiwUVdMVk8xM4Ve6MOk"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "559578835002-fbjrvjj5k7r7oson3ti9mumkarl2j3ra.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }
